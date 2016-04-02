@@ -1,4 +1,4 @@
-var PORT = 9001;
+var PORT = process.env.PORT || 9001;
 var express = require('express');
 var middleware = require('./middleware.js');
 var app = express();
